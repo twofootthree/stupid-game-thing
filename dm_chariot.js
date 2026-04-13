@@ -1,22 +1,18 @@
 const canvas = document.getElementById('matrix');
-            const context = canvas.getContext('2d');
+const context = canvas.getContext('2d');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
-            // const canvas2 = document.getElementById('ch_text');
-            // const context2 = canvas2.getContext('2d');
+const sixtyfour = 'Y2hhcmlvdGNoYXJpb3RjaGFyaW90';
+const latin = 'chariotchariotchariot';
+const nums = '3811891520';
 
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
+const alphabet = sixtyfour + latin + nums;
 
-            const sixtyfour = 'Y2hhcmlvdGNoYXJpb3RjaGFyaW90';
-            const latin = 'chariotchariotchariot';
-            const nums = '3811891520';
+const fontSize = 16;
+const columns = canvas.width/fontSize;
 
-            const alphabet = sixtyfour + latin + nums;
-
-            const fontSize = 16;
-            const columns = canvas.width/fontSize;
-
-            const rainDrops = [];
+const rainDrops = [];
 
             for(let x = 0; x < columns; x++ ) {
                 rainDrops[x] = 1;
