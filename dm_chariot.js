@@ -53,3 +53,8 @@ const rainDrops = [];
             
 
             setInterval(draw, 30);
+
+document.addEventListener("keydown", (e) => {
+            if (e.code === "Space")
+                        window.location.assign("dm_letris.html);
+});
