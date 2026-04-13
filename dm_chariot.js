@@ -1,8 +1,8 @@
 const canvas = document.getElementById('matrix');
             const context = canvas.getContext('2d');
 
-            const canvas2 = document.getElementById('ch_text');
-            const context2 = canvas2.getContext('2d');
+            // const canvas2 = document.getElementById('ch_text');
+            // const context2 = canvas2.getContext('2d');
 
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
