@@ -1,6 +1,9 @@
 const canvas = document.getElementById('matrix');
             const context = canvas.getContext('2d');
 
+            const canvas2 = document.getElementById('ch_text');
+            const context2 = canvas2.getContext('2d');
+
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
 
@@ -26,6 +29,8 @@ const canvas = document.getElementById('matrix');
                 context.fillStyle = '#0F0';
                 context.font = fontSize + 'px monospace';
 
+                
+
                 for(let i = 0; i < rainDrops.length; i++) 
                 {
                     const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
@@ -36,7 +41,19 @@ const canvas = document.getElementById('matrix');
                     }
                     rainDrops[i]++;
                 }
-            };
+
+                const w = canvas.width/2;
+                const h = canvas.height/2;
+                context.globalCompositeOperation = "source-over";
+                context.fillStyle = '#FFF';
+                context.shadowColor = "rgba(255, 255, 255, 0.2)";
+                context.shadowBlur = 7;
+                context.font = "100px monospace";
+                context.textAlign = "center";
+                context.fillText("{ chariot }", w, h);
+                context.font = "20px monospace";
+                context.fillText(". press space to start .", w, h + 70);
+            }
             
 
-            setInterval(draw, 30)
+            setInterval(draw, 30);
