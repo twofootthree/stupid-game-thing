@@ -1,4 +1,2 @@
 # asdfghjkdlsdjfhgdhsjkldhgf
-okay so!
-i had three months to make a game for a thing i took at school. guess when the showcase is? that's right. tomorrow. gues how much i've done? that's right. absolutely nothing
-so yeah watch me try not to lose my sanity i guess
+supposed to be for this one showcase at school. however, after multiple bouts of procrastination and topic-changing, i realied that there was absolutely no way i could finish this on time. i still wanted to continue the project, so here it is. let's see how far thi goes
