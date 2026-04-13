@@ -1,7 +1,7 @@
 const canvas = document.getElementById('matrix');
             const context = canvas.getContext('2d');
 
-            canvas.width: window.innerWidth;
+            canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
 
             const sixtyfour = 'Y2hhcmlvdGNoYXJpb3RjaGFyaW90';
